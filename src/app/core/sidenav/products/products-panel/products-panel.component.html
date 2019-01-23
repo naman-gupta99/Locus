@@ -1,0 +1,59 @@
+<ul class="nav nav-tabs" id="productsPanel" role="tablist">
+  <li class="nav-item">
+    <a
+      class="nav-link active1 active brandtabs"
+      id="pconfig-tab"
+      data-toggle="tab"
+      href="#pconfig"
+      role="tab"
+      aria-controls="pconfig"
+      aria-selected="true"
+      >Config</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link active1 brandtabs"
+      id="panalytics-tab"
+      data-toggle="tab"
+      href="#panalytics"
+      role="tab"
+      aria-controls="panalytics"
+      aria-selected="false"
+      >Analytics</a
+    >
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div
+    class="tab-pane active contents"
+    id="pconfig"
+    role="tabpanel"
+    aria-labelledby="pconfig-tab"
+  >
+    <div class="btn-group-vertical" role="group" aria-label="productsConfig">
+      <button type="button" class="btns btn btn-secondary">Left1</button>
+      <button type="button" class="btns btn btn-secondary">Middle1</button>
+      <button type="button" class="btns btn btn-secondary">Right1</button>
+    </div>
+  </div>
+  <div
+    class="tab-pane contents"
+    id="panalytics"
+    role="tabpanel"
+    aria-labelledby="panalytics-tab"
+  >
+    <div class="btn-group-vertical" role="group" aria-label="ProductsAnalytics">
+      <button type="button" class="btns btn btn-secondary">Left2</button>
+      <button type="button" class="btns btn btn-secondary">Middle2</button>
+      <button type="button" class="btns btn btn-secondary">Right2</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function() {
+    $("#productsPanel li:last-child a").tab("show");
+  });
+</script>

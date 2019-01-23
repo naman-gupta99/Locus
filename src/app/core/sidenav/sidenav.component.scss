@@ -1,0 +1,49 @@
+@import "../../../styles.scss";
+
+//Sidenav
+.sidenav {
+  width: 16vw;
+  height: 100vh;
+  background-color: #232323;
+}
+
+//All-buttons
+.btns {
+  width: 15.9vw;
+}
+
+//Locus logo
+.logo {
+  height: 10vh;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  text-align: center;
+}
+
+//----------------
+//Remove this once Logo Image is ready
+.logo-text {
+  font-family: "Kalam", cursive;
+  font-size: 7vh;
+  color: whitesmoke;
+}
+//-----------------
+
+//ProductAdd
+.product-add {
+  font-family: "Comfortaa", cursive;
+}
+
+.product-add-btn {
+  color: #fff;
+  background-color: #545a60;
+  border-color: #545a60;
+}
+
+.sn-down {
+  position: fixed;
+  z-index: 100 !important;
+  padding-top: 0.8vh;
+  padding-left: 2vw;
+}

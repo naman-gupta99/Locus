@@ -1,0 +1,25 @@
+<div *ngIf="brand == true" class="accordian" id="brandContainer">
+  <button
+    class="btns btn btn-dark btn-lg bl-button"
+    type="button"
+    data-toggle="collapse"
+    data-target="#brandPanel"
+    aria-expanded="false"
+    aria-controls="brandPanel"
+    id="brand"
+  >
+    <span class="brand-logo-container"
+      ><img
+        src="../../../assets/img/Brand Logos/Nike.png"
+        class="brand-logo"/><i class="fas fa-caret-down sn-down"></i
+    ></span>
+  </button>
+  <div
+    id="brandPanel"
+    class="collapse"
+    aria-labelledby="brand"
+    data-parent="#brandContainer"
+  >
+    <app-brand-panel></app-brand-panel>
+  </div>
+</div>

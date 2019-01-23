@@ -1,0 +1,23 @@
+<div *ngFor="let x of arr" attr.class="product{{ x }}">
+  <div class="accordian" attr.id="productPanel{{ x }}">
+    <button
+      class="btns btn panel-btn"
+      type="button"
+      data-toggle="collapse"
+      attr.data-target="#product{{ x }}Panel"
+      aria-expanded="false"
+      attr.aria-controls="product{{ x }}Panel"
+      attr.id="product{{ x }}"
+    >
+      {{ x }}<i class="fas fa-caret-down sn-down"></i>
+    </button>
+    <div
+      attr.id="product{{ x }}Panel"
+      class="collapse"
+      attr.aria-labelledby="product{{ x }}"
+      attr.data-parent="#productPanel{{ x }}"
+    >
+      <app-products-panel></app-products-panel>
+    </div>
+  </div>
+</div>
