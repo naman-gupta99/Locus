@@ -9,7 +9,7 @@ export class BrandComponent implements OnInit {
   brand: boolean;
 
   constructor() {
-    this.brand = false;
+    this.brand = true;
   }
 
   ngOnInit() {}
