@@ -1,0 +1,39 @@
+.logo {
+  height: 65px;
+  width: 65px;
+}
+
+.cc-header {
+  margin: 5px;
+  font-size: 15px;
+  color: #888;
+}
+
+.accordion {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.succ {
+  box-shadow: 0 0 0 0.2rem #d4edda;
+  color: #40bf40;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.card-header {
+  padding: 0px;
+}
+
+.table {
+  color: #555;
+}
+
+.accordion .card:first-of-type {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  text-align: center;
+}

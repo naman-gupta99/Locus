@@ -1,0 +1,73 @@
+<div class="card container">
+  <div class="card-body row">
+    <div class="col-">
+      <img
+        src="../../../assets/img/Connector Logos/pinterest.png"
+        class="logo"
+      />
+    </div>
+    <div class="col-sm cc-header gray">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s.
+    </div>
+  </div>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header alert-success" id="headingOne">
+        <h2 class="mb-0">
+          <button
+            class="btn succ"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            <i class="fas fa-pencil-alt"></i> &nbsp;Data Connector Settings
+          </button>
+        </h2>
+      </div>
+
+      <div
+        id="collapseOne"
+        class="collapse show"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <form>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Parameters</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    Pinterest Board URL <br /><small>(Required)</small>
+                  </th>
+                  <td>
+                    <input
+                      type="url"
+                      class="form-control"
+                      id="url"
+                      aria-describedby="urlHelp"
+                      placeholder="Enter URL"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >The URL of the specific board from Pinterest.</small
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
